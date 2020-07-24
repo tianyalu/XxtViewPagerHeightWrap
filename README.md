@@ -8,11 +8,11 @@
 
 使用原生的`ViewPager`时，高度默认会占满全屏：  
 
-![image](https://github.com/tianyalu/XxtViewPagerHeightWrap/raw/master/show/show1.jpg)  
+![image](https://github.com/tianyalu/XxtViewPagerHeightWrap/raw/master/show/show1.gif)  
 
 如何能实现自适应高度的`ViewPager`呢？  
 
-![image](https://github.com/tianyalu/XxtViewPagerHeightWrap/raw/master/show/show2.jpg)  
+![image](https://github.com/tianyalu/XxtViewPagerHeightWrap/raw/master/show/show2.gif)  
 
 ## 二、原因分析
 
@@ -141,7 +141,7 @@ public Object instantiateItem(@NonNull ViewGroup container, int position) {
 }
 ```
 
-详情参考：
+详情参考：[Android 之 inflate() 方法总结](https://github.com/tianyalu/XxtViewPagerHeightWrap/blob/master/androidInflate.md)
 
 ## 四、其它（页面切换效果）
 
